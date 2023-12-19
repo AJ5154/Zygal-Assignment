@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const xPos = i * boxSize;
         const yPos = i * boxSize;
   
-        box.style.width = `${boxSize*2.205}px`;
+        box.style.width = `${boxSize*2.208}px`;
         box.style.height = `${boxSize*0.845}px`;
         box.style.left = `${xPos*2.208}px`;
         box.style.bottom = `${yPos*0.845}px`;
