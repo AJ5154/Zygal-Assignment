@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const xPos = i * boxSize;
         const yPos = i * boxSize;
   
-        box.style.width = `${boxSize*2.203}px`;
+        box.style.width = `${boxSize*2.205}px`;
         box.style.height = `${boxSize*0.85}px`;
-        box.style.left = `${xPos*2.205}px`;
+        box.style.left = `${xPos*2.208}px`;
         box.style.bottom = `${yPos*0.85}px`;
       }
     }
