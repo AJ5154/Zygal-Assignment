@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const existingBoxes = document.querySelectorAll(".box");
       existingBoxes.forEach((box) => box.remove());
   
-      const boxSize = Math.min(window.innerWidth, window.innerHeight) / numBlocks;
+      const boxSize = (Math.min(window.innerWidth, window.innerHeight) * 1) / numBlocks;
   
       for (let i = 0; i < numBlocks; i++) {
         const box = document.createElement("div");
@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const xPos = i * boxSize;
         const yPos = i * boxSize;
   
-        box.style.width = `${boxSize*2.215}px`;
-        box.style.height = `${boxSize*0.84}px`;
-        box.style.left = `${xPos*2.212}px`;
-        box.style.bottom = `${yPos*0.84}px`;
+        box.style.width = `${boxSize*2.2}px`;
+        box.style.height = `${boxSize*0.853}px`;
+        box.style.left = `${xPos*2.2}px`;
+        box.style.bottom = `${yPos*0.853}px`;
       }
     }
   });
