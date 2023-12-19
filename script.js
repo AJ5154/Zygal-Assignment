@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const yPos = i * boxSize;
   
         box.style.width = `${boxSize*2.215}px`;
-        box.style.height = `${boxSize*0.83}px`;
+        box.style.height = `${boxSize*0.835}px`;
         box.style.left = `${xPos*2.212}px`;
-        box.style.bottom = `${yPos*0.83}px`;
+        box.style.bottom = `${yPos*0.835}px`;
       }
     }
   });
